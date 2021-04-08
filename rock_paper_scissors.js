@@ -1,7 +1,7 @@
 const rspList = ['Rock', 'Paper', 'Scissors'];
 
-let gossHand = rspList[(Math.floor(Math.random() * 10))%3];
-let tunnHand = rspList[(Math.floor(Math.random() * 10))%3];
+let gossHand = rspList[Math.floor(Math.random() * 3)];
+let tunnHand = rspList[Math.floor(Math.random() * 3)];
 
 
 console.log(gossHand);
